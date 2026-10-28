@@ -1,4 +1,4 @@
-# LLD Lectures
+# System Design Live Lectures
 
 Student material from my Low-Level Design (LLD) classes: whiteboard notes,
 Java examples, live-coding exercises, and quizzes.
