@@ -1,7 +1,7 @@
 # System Design Live Lectures
 
-Student material from my Low-Level Design (LLD) classes: whiteboard notes,
-Java examples, live-coding exercises, and quizzes.
+Whiteboard notes, Java examples, live-coding exercises, and quizzes for
+learning Low-Level Design (LLD).
 
 ## Lectures
 
@@ -24,15 +24,5 @@ For the Java examples, install a JDK (Java 11 or newer). Open the
 lecture's `code` folder in VS Code with the Extension Pack for Java.
 The included build task compiles the main example and quizzes; the
 **Food app (Main)** launch configuration runs the food-ordering example.
-The `live` folder contains teaching exercises that may be incomplete
+The `live` folder contains practice exercises that may be incomplete
 during a lecture.
-
-## Teaching workspace
-
-Git gutter highlights and file-status colors are disabled in this
-repository's VS Code settings, both when opening the repository root and
-when opening the lecture's `code` folder. Git still works normally,
-including the Source Control view. These settings do not affect other
-projects.
-
-Private instructor guides are not part of this repository.
