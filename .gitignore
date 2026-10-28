@@ -1,0 +1,18 @@
+# Private instructor material must never be published.
+/Lectures-Guide/
+
+# Java build output.
+**/out/
+**/bin/
+**/target/
+**/build/
+*.class
+
+# Local credentials and operating-system files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

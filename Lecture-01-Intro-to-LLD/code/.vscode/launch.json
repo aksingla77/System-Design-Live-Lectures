@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Food app (Main)",
+            "request": "launch",
+            "mainClass": "com.foodapp.Main"
+        },
+        {
+            "type": "java",
+            "name": "Current file",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "java.project.sourcePaths": ["src", "live"],
+    "java.project.outputPath": "bin",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    }
+}

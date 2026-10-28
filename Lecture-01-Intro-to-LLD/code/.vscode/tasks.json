@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "javac: build all",
+            "type": "process",
+            "command": "javac",
+            "args": [
+                "-d", "out",
+                "--source-path", "src",
+                "src/com/foodapp/Main.java",
+                "src/com/foodapp/quiz/q08/Quiz08References.java",
+                "src/com/foodapp/quiz/q09/Quiz09This.java",
+                "src/com/foodapp/quiz/q11/Quiz11Static.java",
+                "src/com/foodapp/quiz/q12/Quiz12Final.java"
+            ],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "java: run Main",
+            "type": "process",
+            "command": "java",
+            "args": ["-cp", "out", "com.foodapp.Main"],
+            "dependsOn": "javac: build all",
+            "problemMatcher": []
+        }
+    ]
+}
